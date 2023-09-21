@@ -35,7 +35,7 @@ def main():
                 cash.process_coins()
                 if cash.transaction_result(recipes['medium']['cost']) == True:
                     sm.make_sandwich('medium', recipes['medium']['ingredients'])
-                    print('Medium sandwich coming up!')
+                    print('Medium sandwich coming up!!')
                 else:
                     print("Insufficient Funds.")
             else:
